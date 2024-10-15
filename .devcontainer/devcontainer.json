@@ -15,14 +15,12 @@
         "christian-kohler.path-intellisense",
         "eamodio.gitlens",
         "coenraads.bracket-pair-colorizer",
-        "mikestead.dotenv",
-        "sdras.night-owl",
-        "2gua.rainbow-brackets"
+        "mikestead.dotenv"
       ],
       "settings": {
-        "workbench.colorTheme": "Night Owl",
-        "terminal.integrated.fontFamily": "material-icon-theme",
-        "workbench.iconTheme": "vscode-icons",
+        "workbench.colorTheme": "One Dark Pro Darker",
+        "terminal.integrated.fontFamily": "monospace",
+        "workbench.iconTheme": "material-icon-theme",
         "editor.fontLigatures": true,
         "editor.fontFamily": "'FiraCode Nerd Font Mono', 'Droid Sans Mono', 'monospace', monospace",
         "editor.minimap.enabled": false,
