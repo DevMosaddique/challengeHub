@@ -1,0 +1,37 @@
+{
+  "name": "Node.js",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:0-18",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "zhuangtongfa.material-theme",
+        "formulahendry.auto-rename-tag",
+        "sviat.vscode-javascript-booster",
+        "zongou.vs-seti-firacodenerdfontmono",
+        "PKief.material-icon-theme",
+        "ritwickdey.LiveServer",
+        "christian-kohler.path-intellisense",
+        "eamodio.gitlens",
+        "coenraads.bracket-pair-colorizer",
+        "mikestead.dotenv",
+        "sdras.night-owl",
+        "2gua.rainbow-brackets"
+      ],
+      "settings": {
+        "workbench.colorTheme": "Night Owl",
+        "terminal.integrated.fontFamily": "material-icon-theme",
+        "workbench.iconTheme": "vscode-icons",
+        "editor.fontLigatures": true,
+        "editor.fontFamily": "'FiraCode Nerd Font Mono', 'Droid Sans Mono', 'monospace', monospace",
+        "editor.minimap.enabled": false,
+        "editor.wordWrap": "on"
+      }
+    }
+  },
+  "containerEnv": {
+    "NODE_ENV": "development"
+  },
+  "postCreateCommand": "npm install"
+}
