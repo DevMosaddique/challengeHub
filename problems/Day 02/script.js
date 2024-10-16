@@ -10,11 +10,12 @@ function isPalindrome(str) {
     let originalSentence = str.replace(/[^a-z0-9]/gi, '').toLowerCase()
     let reversedSentence = originalSentence.split('').reverse().join('')
     if(originalSentence === reversedSentence){
-        console.log(true)
+        console.log('It\'s Palindrome')
     }else{
-        console.log(false);
+        console.log('It\'s not Palindrome')
     }
 
 }
-isPalindrome('Madam, I\'m Adam'); // Output: true
-isPalindrome('A man, a plan, a canal, Panama'); // Output: true
+isPalindrome('Hello, User');
+isPalindrome('Madam, I\'m Adam');
+isPalindrome('A man, a plan, a canal, Panama');
