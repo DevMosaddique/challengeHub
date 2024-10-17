@@ -9,3 +9,9 @@
 - **Example**:
   - Input: `"The quick brown fox jumped over the lazy dog"`
   - Output: `"jumped"`
+
+#### **Day 3 [03]: Factorial Calculation**
+- **Problem**: Write a function to calculate the factorial of a given number.
+- **Example**:
+  - Input: `5`
+  - Output: `120`

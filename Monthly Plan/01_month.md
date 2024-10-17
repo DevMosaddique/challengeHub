@@ -6,33 +6,65 @@
 
 #### **Day 1: Sum of Digits**
 - **Problem**: Write a function that takes a number and returns the sum of its digits.
-- **Example**: 
+- **Example**:
   - Input: `123`
   - Output: `6`
 
-#### **Day 2: Reverse a String**
-- **Problem**: Write a function to reverse a given string.
-- **Example**: 
-  - Input: `"hello"`
-  - Output: `"olleh"`
-
-#### **Day 3: Find the Longest Word**
-- **Problem**: Write a function that takes a sentence and returns the longest word.
-- **Example**:
-  - Input: `"The quick brown fox jumped over the lazy dog"`
-  - Output: `"jumped"`
-
-#### **Day 4: Palindrome Checker**
+#### **Day 2: Palindrome Checker**
 - **Problem**: Write a function to check if a given word is a palindrome.
 - **Example**:
   - Input: `"racecar"`
   - Output: `true`
 
-#### **Day 5: Factorial Calculation**
+#### **Day 3 (1): Reverse a String**
+- **Problem**: Write a function to reverse a given string.
+- **Example**:
+  - Input: `"hello"`
+  - Output: `"olleh"`
+
+#### **Day 3 (2): Find the Longest Word**
+- **Problem**: Write a function that takes a sentence and returns the longest word.
+- **Example**:
+  - Input: `"The quick brown fox jumped over the lazy dog"`
+  - Output: `"jumped"`
+
+#### **Day 3 (3): Factorial Calculation**
 - **Problem**: Write a function to calculate the factorial of a given number.
 - **Example**:
   - Input: `5`
   - Output: `120`
+
+#### **Day 4: FizzBuzz**
+- **Problem**: Write a function that prints the numbers from 1 to n. But for multiples of three, print "Fizz" instead of the number, and for the multiples of five, print "Buzz". For numbers which are multiples of both three and five, print "FizzBuzz".
+- **Example**:
+  - Input: `n = 15`
+  - Output:
+    ```
+    1
+    2
+    Fizz
+    4
+    Buzz
+    Fizz
+    7
+    8
+    Fizz
+    Buzz
+    11
+    Fizz
+    13
+    14
+    FizzBuzz
+    ```
+
+#### **Day 5: Group Anagrams**
+- **Problem**: Write a function that takes an array of strings and groups the anagrams together.
+- **Example**:
+  - Input: `["eat", "tea", "tan", "ate", "nat", "bat"]`
+  - Output:
+    `
+    [['eat', 'tea', 'ate'], ['tan', 'nat'], ['bat']]
+    `
 
 #### **Day 6: Find the Second Largest Number in an Array**
 - **Problem**: Write a function that returns the second largest number from an array of numbers.
